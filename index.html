@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>SmartScaler — Resizer → Upscale + Compare</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>🧠 SmartScaler — Resizer → Upscale + Compare</h1>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>1) Upload Images</h2>
+      <div class="row">
+        <input id="fileInput" type="file" multiple accept=".png,.jpg,.jpeg"/>
+        <button id="btnUpload">Upload</button>
+      </div>
+      <p id="uploadMsg" class="muted"></p>
+<button id="btnToggleUploads">Manage Uploads</button>
+<div id="uploadsPanel" style="display:none;margin-top:10px;">
+  <div class="muted" style="margin-bottom:6px;">Delete files from ui_runtime/uploads</div>
+  <div id="uploadsList" class="list"></div>
+</div>
+    </section>
+
+    <section class="card">
+      <h2>2) Run Smart Resizer</h2>
+      <button id="btnRunResizer">Run smart_resizer.py</button>
+      <h3>Logs</h3>
+      <pre id="resizerLogs" class="logs"></pre>
+    </section>
+
+    <section class="card">
+      <h2>3) Results</h2>
+      <button id="btnRefreshCopies">Refresh Copied Outputs</button>
+      <div id="copiesGrid" class="grid"></div>
+    </section>
+
+    <section class="card">
+      <h2>4) Upscale + Compare (saved_models/upscaler.h5)</h2>
+      <div class="row">
+        <label for="sourceSel">Source:</label>
+        <select id="sourceSel">
+          <option value="dataset" selected>Dataset (default)</option>
+          <option value="uploads">User uploads (from Resizer)</option>
+        </select>
+
+        <label for="limitSel">Limit:</label>
+        <select id="limitSel">
+          <option value="0" selected>No limit</option>
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="25">25</option>
+        </select>
+
+        <button id="btnRunBatch">Run Upscale + Compare</button>
+        <button id="btnZipOutputs">Download ZIP of outputs</button>
+      </div>
+
+      <div class="progress-wrap">
+        <div id="progressBar"></div>
+      </div>
+      <div class="muted" id="etaText">idle</div>
+
+      <h3>Batch Logs</h3>
+      <pre id="batchLogs" class="logs"></pre>
+
+      <h3>Batch Metrics</h3>
+      <table class="metrics">
+        <thead>
+          <tr><th>Filename</th><th>MSE</th><th>PSNR</th><th>SSIM</th></tr>
+        </thead>
+        <tbody id="metricsBody"></tbody>
+      </table>
+      <button id="btnRefreshMetrics">Refresh Batch Outputs</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
