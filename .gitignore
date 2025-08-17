@@ -1,0 +1,73 @@
+# ---------- OS clutter ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- IDE project files ----------
+.idea/
+.vscode/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+
+# virtual environments
+.venv/
+venv/
+ENV/
+env/
+ui_venv/
+tf_venv/
+venv310/
+
+# packaging / build artifacts
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# caches & test artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.cache/
+htmlcov/
+coverage.xml
+*.coverage
+.coverage.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ---------- Node (if used under server/) ----------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------- Logs & temp ----------
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ---------- IMPORTANT ----------
+# We intentionally DO NOT ignore these so they are committed:
+# data_preprocessing/
+# data_processing/
+# input/
+# output/
+# saved_models/
+# server/
+# static/
+# ui_runtime/
+# zips/
+# (no rules below will exclude them)
