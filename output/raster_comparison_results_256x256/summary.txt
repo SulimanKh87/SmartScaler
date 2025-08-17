@@ -1,0 +1,22 @@
+SVG Roundtrip Quality Report
+===========================
+
+Total comparisons: 138
+Failed comparisons: 0
+
+Quality Metrics Summary:
+PSNR:
+  Min: inf
+  Max: inf
+  Avg: inf
+
+SSIM:
+  Min: 1.00
+  Max: 1.00
+  Avg: 1.00
+
+MSE:
+  Min: 0.00
+  Max: 0.00
+  Avg: 0.00
+

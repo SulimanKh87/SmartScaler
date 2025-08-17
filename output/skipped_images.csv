@@ -1,0 +1,50 @@
+file,reasons,resolution
+008_kingfisher-881594_640.jpg,Too small for 512x512 (min 384px),640x360
+010_dove-2516641_640.jpg,Too small for 512x512 (min 384px),640x355
+021_mountains-100367_640.jpg,Too blurry (Laplacian: 136.4); Low edge density: 0.0086,640x425
+025_gull-1090835_640.jpg,Too small for 512x512 (min 384px),640x201
+028_bird-3158784_640.jpg,Low edge density: 0.0149,640x437
+033_hummingbird-2139278_640.jpg,Low edge density: 0.0097,640x445
+034_white-tailed-eagle-2015098_640.jpg,Too small for 512x512 (min 384px),640x381
+035_barn-owl-1107397_640.jpg,Too small for 512x512 (min 384px),640x320
+040_kingfisher-881975_640.jpg,Too small for 512x512 (min 384px),640x360
+048_swan-2107052_640.jpg,Too small for 512x512 (min 384px),640x366
+049_peacock-90051_640.jpg,Too small for 512x512 (min 384px),640x360
+051_dove-2680487_640.jpg,Too blurry (Laplacian: 77.1); Low edge density: 0.0134,640x427
+060_peacock-3080897_640.jpg,Too small for 512x512 (min 384px),640x338
+061_bird-4060696_640.jpg,Too small for 512x512 (min 384px); Too blurry (Laplacian: 145.4); Low edge density: 0.0083,640x378
+064_bird-7576994_640.jpg,Too blurry (Laplacian: 79.3); Low edge density: 0.0104,640x427
+068_bald-eagle-521492_640.jpg,Too small for 512x512 (min 384px); Low edge density: 0.0059,640x372
+070_sea-1377712_640.jpg,Too blurry (Laplacian: 123.7); Low edge density: 0.0147,640x401
+073_swan-3466606_640.jpg,Too small for 512x512 (min 384px),640x380
+075_swan-293157_640.jpg,Too blurry (Laplacian: 50.6); Low edge density: 0.0041,640x425
+077_eagle-339128_640.jpg,Low edge density: 0.0146,640x424
+078_red-kite-50498_640.jpg,Too small for 512x512 (min 384px),640x325
+079_flamingo-600205_640.jpg,Too small for 512x512 (min 384px),640x331
+084_barn-owl-2550068_640.jpg,Too small for 512x512 (min 384px),640x360
+086_bluetit-in-winter.jpg,Too small for 512x512 (min 384px),524x328
+088_robin-on-snow-covered-tree-winter-scene-christmas-scene.jpg,Too small for 512x512 (min 384px),371x464
+093_beautiful-winter-scenery-with-european-finch-birds-perched-on-the-branch-within-a-heavy.jpg,Too small for 512x512 (min 384px),509x339
+094_starling-in-autumn.jpg,Too small for 512x512 (min 384px),509x339
+095_starling-in-autumn.jpg,Too small for 512x512 (min 384px),509x339
+097_lark-on-a-white-background.jpg,Too small for 512x512 (min 384px),509x339
+096_european-robin-isolated-on-white-background.jpg,Too small for 512x512 (min 384px),509x339
+099_bird-2295436_1280.jpg,Too blurry (Laplacian: 107.5); Low edge density: 0.0122,1280x853
+100_mountains-100367_1280.jpg,Too blurry (Laplacian: 49.1); Low edge density: 0.0048,1280x849
+102_flock-of-fieldfares-on-rowan-tree.jpg,Too small for 512x512 (min 384px),509x339
+103_swan-16736_1280.jpg,Too blurry (Laplacian: 102.4); Low edge density: 0.0077,1280x853
+110_gull-192909_1280.jpg,Too blurry (Laplacian: 80.9),1280x853
+115_bird-7576994_1280.jpg,Low edge density: 0.0098,1280x853
+129_hummingbird-2139278_1280.jpg,Low edge density: 0.0068,1280x890
+134_winter-843578_1280.jpg,Too blurry (Laplacian: 83.6); Low edge density: 0.0105,1280x904
+135_sea-1377712_1280.jpg,Too blurry (Laplacian: 133.9); Low edge density: 0.0109,1280x803
+147_gull-1090835_1280.jpg,Too blurry (Laplacian: 114.6); Low edge density: 0.0127,1280x402
+151_kingfisher-2363879_1280.jpg,Too blurry (Laplacian: 94.3); Low edge density: 0.0112,1280x853
+153_barn-owl-1107397_1280.jpg,Too blurry (Laplacian: 69.3); Low edge density: 0.0109,1280x641
+155_seagull-3465550_1280.jpg,Low edge density: 0.0094,1280x879
+174_bird-3158784_1280.jpg,Low edge density: 0.0118,1280x874
+175_bald-eagle-521492_1280.jpg,Too blurry (Laplacian: 68.4); Low edge density: 0.0036,1280x744
+177_eagle-339128_1280.jpg,Too blurry (Laplacian: 104.2); Low edge density: 0.0092,1280x848
+178_dove-2680487_1280.jpg,Too blurry (Laplacian: 57.8); Low edge density: 0.0065,1280x853
+183_swan-293157_1280.jpg,Too blurry (Laplacian: 21.2); Low edge density: 0.0020,1280x850
+187_bird-4060696_1280.jpg,Low edge density: 0.0093,1280x756
